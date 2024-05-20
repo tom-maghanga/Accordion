@@ -4,11 +4,25 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .accordian{
     width: 500px;
+
 }
+
+.wrapper button{
+    padding: 10px 20px;
+    background-color: darksalmon;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
 
 .item{
     background-color: chocolate;
